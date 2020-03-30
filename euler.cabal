@@ -4,26 +4,25 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f9129a6db2407ff3d91a01f81d288f342ba90efa8eb9b64c5b35955eb25d4faa
+-- hash: bd64bcf14acc669f463d93abdb118d9a2779c41474444c1c1fd893c015ff9138
 
 name:           euler
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/euler#readme>
-homepage:       https://github.com/githubuser/euler#readme
-bug-reports:    https://github.com/githubuser/euler/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/TastyPi/euler-haskell#readme>
+homepage:       https://github.com/TastyPi/euler-haskell#readme
+bug-reports:    https://github.com/TastyPi/euler-haskell/issues
+author:         Graham Rogers
+maintainer:     graham@rogers.me.uk
+copyright:      2020 Graham Rogers
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
-    ChangeLog.md
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/euler
+  location: https://github.com/TastyPi/euler-haskell
 
 library
   exposed-modules:
