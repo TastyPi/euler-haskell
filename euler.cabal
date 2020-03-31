@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f0b9f037559bafd07f38ad8059cfad035cfd1752d739146a7b4b14910ea9c980
+-- hash: f96b05faee320cee0d8e3340c7c24530521d55c03a91cf36fafc7a034f3acd52
 
 name:           euler
 version:        0.1.0.0
@@ -26,9 +26,13 @@ source-repository head
 
 library
   exposed-modules:
-      Data.Nat
+      Data.ExtraFoldable
+      Data.Fibonacci
+      Data.InfList
       Data.Triangle
+      Data.Zip
       Euler.Problem1
+      Euler.Problem2
   other-modules:
       Paths_euler
   hs-source-dirs:
@@ -42,6 +46,7 @@ test-suite spec
   main-is: Spec.hs
   other-modules:
       Euler.Problem1Spec
+      Euler.Problem2Spec
       Paths_euler
   hs-source-dirs:
       test
