@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f96b05faee320cee0d8e3340c7c24530521d55c03a91cf36fafc7a034f3acd52
+-- hash: b7f82077bcc5191ab2f00f7d0dea2c6a09936ebcb0ac2843a1350950b3cce607
 
 name:           euler
 version:        0.1.0.0
@@ -26,17 +26,18 @@ source-repository head
 
 library
   exposed-modules:
-      Data.ExtraFoldable
       Data.Fibonacci
       Data.InfList
       Data.Triangle
       Data.Zip
       Euler.Problem1
       Euler.Problem2
+      EulerPrelude
   other-modules:
       Paths_euler
   hs-source-dirs:
       src
+  default-extensions: NoImplicitPrelude
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
@@ -50,6 +51,7 @@ test-suite spec
       Paths_euler
   hs-source-dirs:
       test
+  default-extensions: NoImplicitPrelude
   build-depends:
       base >=4.7 && <5
     , euler

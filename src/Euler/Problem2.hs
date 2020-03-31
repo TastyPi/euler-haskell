@@ -1,8 +1,8 @@
 {-# LANGUAGE NumericUnderscores #-}
 module Euler.Problem2 where
 
-import Prelude hiding (takeWhile)
-import Data.ExtraFoldable
+import EulerPrelude
+
 import Data.Fibonacci
 
 solution2 :: IO ()

@@ -1,7 +1,7 @@
 module Euler.Problem2Spec (spec) where
 
-import Prelude hiding (take)
-import Data.ExtraFoldable
+import EulerPrelude
+
 import Data.Fibonacci
 import Data.InfList
 import Euler.Problem2

@@ -1,5 +1,7 @@
 module Euler.Problem1Spec (spec) where
 
+import EulerPrelude
+
 import Euler.Problem1
 import Test.Hspec
 

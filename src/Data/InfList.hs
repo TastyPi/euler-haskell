@@ -2,8 +2,7 @@
 
 module Data.InfList where
 
-import Prelude hiding (zipWith)
-import Data.Zip
+import EulerPrelude
 
 data InfList a = a :> InfList a
   deriving (Functor, Foldable)
